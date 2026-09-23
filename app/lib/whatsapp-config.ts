@@ -24,9 +24,9 @@ export const WHATSAPP_GROUPS = [
     url: "https://chat.whatsapp.com/Jf3qIlV78zx33GjHMxMsSU",
     maxClicks: 416,
   },
-] as const;
+] as const satisfies ReadonlyArray<{ url: string; maxClicks: number }>;
 
-export const WHATSAPP_URL_FALLBACK = WHATSAPP_GROUPS[0].url;
+export const WHATSAPP_URL_FALLBACK: string = WHATSAPP_GROUPS[0].url;
 
 export const WA_URL_STORAGE_KEY = "wa_redirect_url";
 

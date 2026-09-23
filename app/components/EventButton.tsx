@@ -29,7 +29,7 @@ export function EventButton({
     if (loading) return;
     setLoading(true);
 
-    let whatsappUrl = WHATSAPP_URL_FALLBACK;
+    let whatsappUrl: string = WHATSAPP_URL_FALLBACK;
 
     try {
       const res = await fetch("/api/click", { method: "POST" });
