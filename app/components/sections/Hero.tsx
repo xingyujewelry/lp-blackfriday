@@ -55,7 +55,7 @@ export function Hero() {
               />
             </div>
 
-            <h1 className="font-display text-[1.95rem] font-medium leading-[1.18] tracking-tight text-white [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] sm:text-[2.45rem] lg:text-[2.35rem] xl:text-[2.55rem]">
+            <h1 className="font-helvetica text-[1.85rem] font-medium leading-[1.22] tracking-tight text-white [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] sm:text-[2.45rem] lg:text-[2.35rem] xl:text-[2.55rem]">
               <span className="block lg:hidden">
                 Antecipe seu estoque para a Black Friday e importe semijoias
                 direto da fábrica na China
@@ -109,7 +109,7 @@ export function Hero() {
                 Entrar no grupo do WhatsApp
               </EventButton>
             </div>
-            <p className="mt-5 max-w-md text-[13px] font-normal leading-relaxed text-[#A67E7B] [text-shadow:0_1px_10px_rgba(0,0,0,0.25)] lg:mt-5 lg:text-sm">
+            <p className="mt-5 max-w-md text-[13px] font-normal leading-relaxed text-white [text-shadow:0_1px_10px_rgba(0,0,0,0.25)] lg:mt-5 lg:text-sm">
               Os avisos das lives, o acesso à Coleção Estrela e as condições do
               evento serão enviados no grupo oficial.
             </p>

@@ -83,10 +83,10 @@ export function Lives() {
                   />
                 </div>
                 <div className="max-w-sm sm:max-w-none">
-                  <span className="block font-display text-2xl font-medium tracking-tight text-[#59271C] sm:text-3xl lg:text-[1.85rem]">
+                  <span className="block font-helvetica text-2xl font-medium tracking-tight text-[#59271C] sm:text-3xl lg:text-[1.85rem]">
                     {live.date}
                   </span>
-                  <h3 className="mt-2 font-display text-lg font-medium tracking-tight text-[#0D0D0D] sm:text-xl lg:text-[1.25rem]">
+                  <h3 className="mt-2 font-helvetica text-lg font-medium tracking-tight text-[#0D0D0D] sm:text-xl lg:text-[1.25rem]">
                     {live.label}
                   </h3>
                   <p className="mt-3 text-base font-normal leading-relaxed text-[#40343F]/75 sm:text-lg lg:text-[1.05rem] lg:leading-[1.7]">

@@ -129,7 +129,7 @@ export function Benefits() {
                           strokeWidth={1.3}
                           aria-hidden
                         />
-                        <h3 className="mt-4 font-display text-lg font-medium leading-snug tracking-tight text-[#0D0D0D] sm:text-xl">
+                        <h3 className="mt-4 font-helvetica text-lg font-medium leading-snug tracking-tight text-[#0D0D0D] sm:text-xl">
                           {item.title}
                         </h3>
                         <p className="mt-3 text-[0.95rem] font-normal leading-relaxed text-[#40343F]/75 sm:text-base">

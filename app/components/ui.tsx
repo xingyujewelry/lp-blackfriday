@@ -77,7 +77,7 @@ export function SectionHeading({
       <h2
         className={`${
           tag ? "mt-6" : ""
-        } text-balance font-display text-[2rem] font-medium leading-[1.12] tracking-tight sm:text-[2.25rem] lg:text-[2.4rem] xl:text-[2.65rem] ${
+        } text-balance font-helvetica text-[2rem] font-medium leading-[1.12] tracking-tight sm:text-[2.25rem] lg:text-[2.4rem] xl:text-[2.65rem] ${
           isLight ? "text-[#0D0D0D]" : "text-foreground"
         }`}
       >
