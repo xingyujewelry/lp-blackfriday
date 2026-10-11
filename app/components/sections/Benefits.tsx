@@ -32,18 +32,18 @@ const guarantees: {
   },
   {
     icon: Gem,
-    title: "Coleção Estrela",
+    title: "Coleção Queridinhas",
     text: "Uma seleção especial de semijoias criada para quem quer antecipar o estoque e aproveitar uma condição forte para comprar melhor antes de novembro.",
   },
   {
     icon: BadgePercent,
-    title: "48% de desconto",
-    text: "Durante o Antecipa Black Friday, a Coleção Estrela será liberada com 48% de desconto por tempo limitado durante a campanha.",
+    title: "49% de desconto",
+    text: "Durante o Esquenta Black Friday, a Coleção Queridinhas será liberada com 49% de desconto por tempo limitado durante a campanha.",
   },
   {
     icon: Bell,
     title: "Grupo oficial do evento",
-    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar o Antecipa Black Friday.",
+    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar o Esquenta Black Friday.",
   },
 ];
 
@@ -78,13 +78,13 @@ export function Benefits() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-[center_right] bg-no-repeat opacity-[0.14] grayscale lg:block"
-        style={{ backgroundImage: "url('/DESK.png')" }}
+        style={{ backgroundImage: "url('/heroDesktop.png')" }}
         aria-hidden
       />
       {/* background — mobile */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.12] grayscale lg:hidden"
-        style={{ backgroundImage: "url('/MOBI.png')" }}
+        style={{ backgroundImage: "url('/heroMobile.png')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/80 via-white/72 to-white/85" />
@@ -94,20 +94,20 @@ export function Benefits() {
         <Reveal>
           <SectionHeading
             tone="light"
-            tag="Antecipa Black Friday"
+            tag="Esquenta Black Friday"
             title={
               <>
                 A Black Friday de quem
                 <br className="hidden sm:block" /> vende começa antes.
               </>
             }
-            subtitle="Quem quer vender mais em novembro não pode esperar a Black Friday chegar para pensar no estoque. No Antecipa Black Friday, você compra antes, direto da fábrica na China, aproveita uma condição especial e se prepara para chegar à alta demanda com variedade, margem e estoque pronto para vender."
+            subtitle="Quem quer vender mais em novembro não pode esperar a Black Friday chegar para pensar no estoque. No Esquenta Black Friday, você compra antes, direto da fábrica na China, aproveita uma condição especial e se prepara para chegar à alta demanda com variedade, margem e estoque pronto para vender."
           />
         </Reveal>
 
         <Reveal delay={80}>
           <div className="mx-auto mt-16 flex max-w-3xl flex-col items-center gap-5 lg:mt-20">
-            <p className="text-center text-[11px] font-medium uppercase tracking-[0.28em] text-[#8C4C3E] lg:text-xs mb-4">
+            <p className="text-center text-[11px] font-medium uppercase tracking-[0.28em] text-[#F45D26] lg:text-xs mb-4">
               No nosso evento você ainda garante
             </p>
           </div>
@@ -123,16 +123,16 @@ export function Benefits() {
                       key={item.title}
                       className="min-w-0 flex-[0_0_88%] pl-5 sm:flex-[0_0_48%] sm:pl-6 lg:flex-[0_0_33.333%]"
                     >
-                      <article className="flex h-full min-h-[15.5rem] flex-col border-t border-[#59271C] pt-6 sm:min-h-[16.5rem] sm:pt-7">
+                      <article className="flex h-full min-h-[15.5rem] flex-col border-t border-[#762F28] pt-6 sm:min-h-[16.5rem] sm:pt-7">
                         <item.icon
-                          className="h-7 w-7 text-[#59271C] sm:h-8 sm:w-8"
+                          className="h-7 w-7 text-[#762F28] sm:h-8 sm:w-8"
                           strokeWidth={1.3}
                           aria-hidden
                         />
                         <h3 className="mt-4 font-helvetica text-lg font-medium leading-snug tracking-tight text-[#0D0D0D] sm:text-xl">
                           {item.title}
                         </h3>
-                        <p className="mt-3 text-[0.95rem] font-normal leading-relaxed text-[#40343F]/75 sm:text-base">
+                        <p className="mt-3 text-[0.95rem] font-normal leading-relaxed text-[#0D0D0D]/75 sm:text-base">
                           {item.text}
                         </p>
                       </article>
@@ -146,7 +146,7 @@ export function Benefits() {
               type="button"
               aria-label="Anterior"
               onClick={scrollPrev}
-              className="absolute left-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#59271C]/35 transition-all duration-500 hover:text-[#59271C] sm:flex"
+              className="absolute left-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#762F28]/35 transition-all duration-500 hover:text-[#762F28] sm:flex"
             >
               <ChevronLeft className="h-6 w-6" strokeWidth={1} aria-hidden />
             </button>
@@ -154,7 +154,7 @@ export function Benefits() {
               type="button"
               aria-label="Próximo"
               onClick={scrollNext}
-              className="absolute right-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#59271C]/35 transition-all duration-500 hover:text-[#59271C] sm:flex"
+              className="absolute right-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#762F28]/35 transition-all duration-500 hover:text-[#762F28] sm:flex"
             >
               <ChevronRight className="h-6 w-6" strokeWidth={1} aria-hidden />
             </button>
@@ -170,8 +170,8 @@ export function Benefits() {
               onClick={() => emblaApi?.scrollTo(i)}
               className={`h-px rounded-full transition-all duration-500 ${
                 i === selected
-                  ? "w-8 bg-[#59271C]/70"
-                  : "w-3 bg-[#59271C]/20 hover:bg-[#59271C]/40"
+                  ? "w-8 bg-[#762F28]/70"
+                  : "w-3 bg-[#762F28]/20 hover:bg-[#762F28]/40"
               }`}
             />
           ))}

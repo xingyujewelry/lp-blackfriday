@@ -34,7 +34,7 @@ export function SectionTag({
   return (
     <span
       className={`inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.28em] lg:text-xs ${
-        tone === "light" ? "text-[#59271C]" : "text-gold"
+        tone === "light" ? "text-[#F45D26]" : "text-gold"
       }`}
     >
       {children}
@@ -86,7 +86,7 @@ export function SectionHeading({
       {subtitle ? (
         <p
           className={`mt-5 text-base font-normal leading-[1.75] sm:text-lg lg:mt-6 lg:text-[1.125rem] lg:leading-[1.75] ${
-            isLight ? "text-[#40343F]/80" : "text-muted"
+            isLight ? "text-[#0D0D0D]/75" : "text-muted"
           }`}
         >
           {subtitle}
@@ -110,7 +110,7 @@ export function TrustItem({
   small?: boolean;
 }) {
   return (
-    <span className="flex shrink-0 items-center gap-3 whitespace-nowrap">
+    <span className="flex max-w-full items-center gap-3 text-balance sm:shrink-0 sm:whitespace-nowrap">
       <Icon
         className={
           small ? "h-4 w-4 shrink-0 text-white" : "h-6 w-6 shrink-0 text-white"

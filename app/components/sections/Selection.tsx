@@ -56,7 +56,7 @@ export function Selection() {
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
           <SectionHeading
-            tag="Coleção Estrela"
+            tag="Coleção Queridinhas"
             title="Conheça algumas das semijoias da Xingyu"
           />
         </Reveal>

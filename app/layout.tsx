@@ -21,9 +21,9 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Antecipa Black Friday — Semijoias direto da fábrica na China",
+  title: "Esquenta Black Friday — Semijoias direto da fábrica na China",
   description:
-    "Participe do Antecipa Black Friday e prepare agora o estoque que vai vender em novembro, comprando semijoias direto da fábrica na China com 48% de desconto na Coleção Estrela.",
+    "A maior Black Friday de semijoias no atacado. Compre direto da fábrica na China com 49% de desconto na Coleção Queridinhas durante o Esquenta Black Friday.",
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: "/favicon.svg",
