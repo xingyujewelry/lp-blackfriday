@@ -64,10 +64,9 @@ export function EventButton({
       type="button"
       onClick={handleClick}
       disabled={loading}
-      className={`group relative inline-flex items-center justify-center overflow-hidden px-8 py-4 text-xs font-medium uppercase tracking-[0.2em] text-white transition-all duration-500 hover:brightness-110 disabled:cursor-wait disabled:opacity-80 sm:px-10 sm:text-sm lg:px-11 lg:py-[1.1rem] ${className}`}
+      className={`group relative inline-flex items-center justify-center overflow-hidden px-8 py-4 text-xs font-medium uppercase tracking-[0.2em] text-white transition-all duration-500 hover:brightness-110 disabled:cursor-wait disabled:opacity-80 sm:px-10 sm:text-sm lg:px-11 lg:py-[1.1rem] ${loading ? "" : "animate-cta-pulse"} ${className}`}
       style={{
-        background: "#F45D26",
-        boxShadow: "0 10px 28px -14px rgba(244, 93, 38, 0.6)",
+        background: "#1FA855",
         ...style,
       }}
     >
