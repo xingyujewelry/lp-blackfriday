@@ -27,23 +27,23 @@ const guarantees: {
   },
   {
     icon: CalendarDays,
-    title: "Antecipação para novembro",
-    text: "Prepare seu estoque com antecedência para não chegar à Black Friday procurando peças quando deveria estar vendendo.",
+    title: "Renovação de estoque",
+    text: "Renove seu estoque pagando menos e comece o próximo ciclo de vendas com mais variedade e margem.",
   },
   {
     icon: Gem,
-    title: "Coleção Queridinhas",
-    text: "Uma seleção especial de semijoias criada para quem quer antecipar o estoque e aproveitar uma condição forte para comprar melhor antes de novembro.",
+    title: "Coleção Verão",
+    text: "Uma seleção especial de semijoias criada para quem quer reforçar o estoque e aproveitar a condição especial da Black Week Xingyu.",
   },
   {
     icon: BadgePercent,
-    title: "49% de desconto",
-    text: "Durante o Esquenta Black Friday, a Coleção Queridinhas será liberada com 49% de desconto por tempo limitado durante a campanha.",
+    title: "50% de desconto",
+    text: "Durante a Black Week Xingyu, a Coleção Verão será liberada com 50% de desconto por tempo limitado durante a campanha.",
   },
   {
     icon: Bell,
     title: "Grupo oficial do evento",
-    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar o Esquenta Black Friday.",
+    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar a Black Week Xingyu.",
   },
 ];
 
@@ -94,20 +94,20 @@ export function Benefits() {
         <Reveal>
           <SectionHeading
             tone="light"
-            tag="Esquenta Black Friday"
+            tag="Black Week Xingyu"
             title={
               <>
-                A Black Friday de quem
-                <br className="hidden sm:block" /> vende começa antes.
+                A maior Black Week de
+                <br className="hidden sm:block" /> semijoias no atacado.
               </>
             }
-            subtitle="Quem quer vender mais em novembro não pode esperar a Black Friday chegar para pensar no estoque. No Esquenta Black Friday, você compra antes, direto da fábrica na China, aproveita uma condição especial e se prepara para chegar à alta demanda com variedade, margem e estoque pronto para vender."
+            subtitle="Aproveite a maior oportunidade do ano para importar suas semijoias direto da China, renovar seu estoque pagando menos e começar o próximo ciclo de vendas com mais variedade e margem."
           />
         </Reveal>
 
         <Reveal delay={80}>
           <div className="mx-auto mt-16 flex max-w-3xl flex-col items-center gap-5 lg:mt-20">
-            <p className="text-center text-[11px] font-medium uppercase tracking-[0.28em] text-[#F45D26] lg:text-xs mb-4">
+            <p className="text-center text-[11px] font-medium uppercase tracking-[0.28em] text-[#0D0D0D] lg:text-xs mb-4">
               No nosso evento você ainda garante
             </p>
           </div>
@@ -123,9 +123,9 @@ export function Benefits() {
                       key={item.title}
                       className="min-w-0 flex-[0_0_88%] pl-5 sm:flex-[0_0_48%] sm:pl-6 lg:flex-[0_0_33.333%]"
                     >
-                      <article className="flex h-full min-h-[15.5rem] flex-col border-t border-[#762F28] pt-6 sm:min-h-[16.5rem] sm:pt-7">
+                      <article className="flex h-full min-h-[15.5rem] flex-col border-t border-[#0D0D0D] pt-6 sm:min-h-[16.5rem] sm:pt-7">
                         <item.icon
-                          className="h-7 w-7 text-[#762F28] sm:h-8 sm:w-8"
+                          className="h-7 w-7 text-[#0D0D0D] sm:h-8 sm:w-8"
                           strokeWidth={1.3}
                           aria-hidden
                         />
@@ -146,7 +146,7 @@ export function Benefits() {
               type="button"
               aria-label="Anterior"
               onClick={scrollPrev}
-              className="absolute left-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#762F28]/35 transition-all duration-500 hover:text-[#762F28] sm:flex"
+              className="absolute left-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#0D0D0D]/35 transition-all duration-500 hover:text-[#0D0D0D] sm:flex"
             >
               <ChevronLeft className="h-6 w-6" strokeWidth={1} aria-hidden />
             </button>
@@ -154,7 +154,7 @@ export function Benefits() {
               type="button"
               aria-label="Próximo"
               onClick={scrollNext}
-              className="absolute right-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#762F28]/35 transition-all duration-500 hover:text-[#762F28] sm:flex"
+              className="absolute right-0 top-[42%] z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center text-[#0D0D0D]/35 transition-all duration-500 hover:text-[#0D0D0D] sm:flex"
             >
               <ChevronRight className="h-6 w-6" strokeWidth={1} aria-hidden />
             </button>
@@ -170,8 +170,8 @@ export function Benefits() {
               onClick={() => emblaApi?.scrollTo(i)}
               className={`h-px rounded-full transition-all duration-500 ${
                 i === selected
-                  ? "w-8 bg-[#762F28]/70"
-                  : "w-3 bg-[#762F28]/20 hover:bg-[#762F28]/40"
+                  ? "w-8 bg-[#0D0D0D]/70"
+                  : "w-3 bg-[#0D0D0D]/20 hover:bg-[#0D0D0D]/40"
               }`}
             />
           ))}

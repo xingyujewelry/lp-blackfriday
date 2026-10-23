@@ -34,7 +34,7 @@ export function SectionTag({
   return (
     <span
       className={`inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.28em] lg:text-xs ${
-        tone === "light" ? "text-[#F45D26]" : "text-gold"
+        tone === "light" ? "text-[#0D0D0D]" : "text-gold"
       }`}
     >
       {children}

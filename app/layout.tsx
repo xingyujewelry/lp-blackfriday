@@ -21,9 +21,9 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Esquenta Black Friday — Semijoias direto da fábrica na China",
+  title: "Black Week Xingyu — Semijoias direto da fábrica na China",
   description:
-    "A maior Black Friday de semijoias no atacado. Compre direto da fábrica na China com 49% de desconto na Coleção Queridinhas durante o Esquenta Black Friday.",
+    "A maior Black Week de semijoias no atacado. Compre direto da fábrica na China com 50% de desconto na Coleção Verão durante a Black Week Xingyu.",
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: "/favicon.svg",

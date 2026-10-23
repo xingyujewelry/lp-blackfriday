@@ -61,12 +61,12 @@ export default function ObrigadoPage() {
     <main className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-background px-6 text-center">
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-top bg-no-repeat lg:block"
-        style={{ backgroundImage: "url('/heroDesktop.png')" }}
+        style={{ backgroundImage: "url('/CAP%20-%20DESK.png')" }}
         aria-hidden
       />
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-top bg-no-repeat lg:hidden"
-        style={{ backgroundImage: "url('/heroMobile.png')" }}
+        style={{ backgroundImage: "url('/CAP%20-%20MOBI.png')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-[#0D0D0D]/55 lg:bg-[#0D0D0D]/45" />
@@ -75,9 +75,9 @@ export default function ObrigadoPage() {
 
       <div className="relative z-10 flex max-w-md flex-col items-center gap-6">
         <img
-          src="/LOGO%20EVENTO.png"
-          alt="Esquenta Black Friday"
-          className="h-14 w-auto sm:h-16"
+          src="/logo2.png"
+          alt="Black Week Xingyu"
+          className="h-20 w-auto sm:h-24"
         />
 
         <div className="ornament-line ornament-line--dark" aria-hidden>
@@ -95,7 +95,7 @@ export default function ObrigadoPage() {
 
         <div className="mt-2 flex flex-col items-center gap-4">
           <Loader2
-            className="h-8 w-8 animate-spin text-[#F45D26]"
+            className="h-8 w-8 animate-spin text-white"
             strokeWidth={1.4}
             aria-hidden
           />

@@ -1,4 +1,4 @@
-import { Clock, Gift, MonitorPlay, Radio, Users } from "lucide-react";
+import { CalendarDays, Clock, Gift, MonitorPlay, Users } from "lucide-react";
 import { TrustItem } from "../ui";
 
 export function EventStrip() {
@@ -10,7 +10,10 @@ export function EventStrip() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-6 px-6 py-10 text-center text-sm font-medium uppercase tracking-[0.14em] text-white sm:flex-row sm:flex-wrap sm:gap-x-6 sm:gap-y-5 sm:py-12 sm:text-[14px] sm:tracking-[0.14em] lg:gap-8 lg:py-12 lg:text-[14px] lg:tracking-[0.14em] 2xl:flex-nowrap">
         <TrustItem icon={Gift} label="Gratuito" />
         <span className="hidden h-px w-10 shrink-0 bg-white/30 sm:block sm:h-5 sm:w-px" />
-        <TrustItem icon={Radio} label="Ao vivo" />
+        <TrustItem
+          icon={CalendarDays}
+          label="Lives: 05/11, 08/11, 10/11 e 12/11"
+        />
         <span className="hidden h-px w-10 shrink-0 bg-white/30 lg:block lg:h-5 lg:w-px" />
         <TrustItem icon={Clock} label="21:30 (Brasília)" />
         <span className="hidden h-px w-10 shrink-0 bg-white/30 lg:block lg:h-5 lg:w-px" />

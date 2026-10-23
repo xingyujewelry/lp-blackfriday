@@ -1,31 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  /* Brand palette */
+  /* Brand palette — preto e branco */
   --brand-eggplant: #0d0d0d;
-  --brand-rust: #762f28;
-  --brand-copper: #f45d26;
-  --brand-rose: #ffed8d;
+  --brand-rust: #0d0d0d;
+  --brand-copper: #ffffff;
+  --brand-rose: #ffffff;
   --brand-black: #0d0d0d;
 
   --background: #0d0d0d;
-  --surface: #161110;
-  --surface-2: #1f1715;
-  --foreground: #e4e4e4;
-  --muted: #b8b0a8;
+  --surface: #141414;
+  --surface-2: #1a1a1a;
+  --foreground: #ffffff;
+  --muted: #a3a3a3;
 
   /* Brand accent mapped to green-* for compatibility */
-  --green-50: #fff8d6;
-  --green-100: #ffed8d;
-  --green-200: #f9a37f;
-  --green-300: #f47a4c;
-  --green-400: #f45d26;
-  --green-500: #762f28;
-  --green-600: #4a1d18;
-  --glow: rgba(244, 93, 38, 0.28);
+  --green-50: #f5f5f5;
+  --green-100: #e5e5e5;
+  --green-200: #a3a3a3;
+  --green-300: #737373;
+  --green-400: #ffffff;
+  --green-500: #0d0d0d;
+  --green-600: #000000;
+  --glow: rgba(255, 255, 255, 0.2);
 
-  --gold: #ffed8d;
-  --border: rgba(255, 237, 141, 0.18);
+  --gold: #ffffff;
+  --border: rgba(255, 255, 255, 0.16);
 }
 
 @theme inline {
@@ -61,8 +61,8 @@ body {
 }
 
 ::selection {
-  background: rgba(244, 93, 38, 0.5);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.85);
+  color: #0d0d0d;
 }
 
 button:not(:disabled) {
@@ -74,7 +74,7 @@ button:disabled {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 237, 141, 0.3) transparent;
+  scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
 }
 ::-webkit-scrollbar {
   width: 4px;
@@ -84,11 +84,11 @@ button:disabled {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 237, 141, 0.28);
+  background: rgba(255, 255, 255, 0.28);
   border-radius: 99px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 237, 141, 0.45);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 @layer utilities {
@@ -116,7 +116,7 @@ button:disabled {
   }
 
   .btn-glow {
-    box-shadow: 0 8px 24px -12px rgba(244, 93, 38, 0.55);
+    box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.55);
   }
 
   .card-glow {
@@ -134,7 +134,7 @@ button:disabled {
   .glow-beam {
     background: radial-gradient(
       70% 50% at 50% 0%,
-      rgba(244, 93, 38, 0.18) 0%,
+      rgba(255, 255, 255, 0.12) 0%,
       transparent 65%
     );
   }
@@ -171,7 +171,7 @@ button:disabled {
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(255, 237, 141, 0.85),
+      rgba(255, 255, 255, 0.85),
       transparent
     );
   }
@@ -181,7 +181,7 @@ button:disabled {
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(244, 93, 38, 0.45),
+      rgba(13, 13, 13, 0.35),
       transparent
     );
   }
@@ -194,12 +194,12 @@ button:disabled {
   }
 
   .ornament-line--dark .ornament-diamond {
-    background: #ffed8d;
-    box-shadow: 0 0 10px rgba(255, 237, 141, 0.35);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
   }
 
   .ornament-line--light .ornament-diamond {
-    background: #762f28;
+    background: #0d0d0d;
     opacity: 0.75;
   }
 }
