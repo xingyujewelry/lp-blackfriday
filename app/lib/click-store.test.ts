@@ -45,27 +45,27 @@ describe("click-store", () => {
   });
 
   it("recupera o estado salvo do disco", async () => {
-    await resetClickStore(252, tempFile);
+    await resetClickStore(142, tempFile);
     const before = await getClickState(tempFile);
-    expect(before.count).toBe(252);
+    expect(before.count).toBe(142);
     expect(before.group).toBe(1);
 
     const next = await incrementClickAndGetWhatsApp(tempFile);
-    expect(next.count).toBe(253);
+    expect(next.count).toBe(143);
     expect(next.group).toBe(1);
 
     const switched = await incrementClickAndGetWhatsApp(tempFile);
-    expect(switched.count).toBe(254);
+    expect(switched.count).toBe(144);
     expect(switched.group).toBe(2);
     expect(switched.url).toBe(WHATSAPP_GROUPS[1].url);
   });
 
-  it("troca para o grupo 5 após 952 cliques", async () => {
-    await resetClickStore(952, tempFile);
+  it("troca para o grupo 7 após 1327 cliques", async () => {
+    await resetClickStore(1327, tempFile);
     const next = await incrementClickAndGetWhatsApp(tempFile);
-    expect(next.count).toBe(953);
-    expect(next.group).toBe(5);
-    expect(next.url).toBe(WHATSAPP_GROUPS[4].url);
+    expect(next.count).toBe(1328);
+    expect(next.group).toBe(7);
+    expect(next.url).toBe(WHATSAPP_GROUPS[6].url);
   });
 
   it("trata JSON inválido como contador zerado", async () => {
