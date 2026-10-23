@@ -1,4 +1,3 @@
-import { Reveal } from "../Reveal";
 import { ExclusiveMarquee } from "../ExclusiveMarquee";
 import { EventButton } from "../ui";
 import { BadgePercent } from "lucide-react";
@@ -45,7 +44,6 @@ export function Hero() {
 
       {/* Sessão 2 */}
       <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-6 py-12 sm:py-16 lg:py-16 lg:pb-20">
-        <Reveal>
           <div className="flex max-w-xl flex-col items-center text-center lg:max-w-[40rem] lg:items-start lg:text-left">
             <div className="relative mb-8 sm:mb-10 lg:mb-11">
               <img
@@ -111,7 +109,6 @@ export function Hero() {
               condições da Black Week Xingyu serão enviados no grupo oficial.
             </p>
           </div>
-        </Reveal>
       </div>
     </section>
   );
