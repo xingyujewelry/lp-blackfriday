@@ -25,14 +25,14 @@ describe("POST /api/click", () => {
   it("incrementa em chamadas sequenciais e troca no limite", async () => {
     await fs.writeFile(
       process.env.CLICK_STORE_PATH!,
-      JSON.stringify({ count: 143 }),
+      JSON.stringify({ count: 138 }),
       "utf8",
     );
 
     const res = await POST();
     const body = await res.json();
 
-    expect(body.count).toBe(144);
+    expect(body.count).toBe(139);
     expect(body.group).toBe(2);
     expect(body.url).toBe(WHATSAPP_GROUPS[1].url);
   });

@@ -6,31 +6,31 @@
 export const WHATSAPP_GROUPS = [
   {
     url: "https://chat.whatsapp.com/HqiL10jphxZGZL2FoJeYKn",
-    maxClicks: 143,
+    maxClicks: 138,
   },
   {
     url: "https://chat.whatsapp.com/GgiaeKuxGMB5uSZakNWG2y",
-    maxClicks: 211,
+    maxClicks: 177,
   },
   {
     url: "https://chat.whatsapp.com/HCUO7AfGW1x05XHk2fTi1Z",
-    maxClicks: 117,
+    maxClicks: 188,
   },
   {
     url: "https://chat.whatsapp.com/CWbL4fQRhdzFmIJGT1xGxc",
-    maxClicks: 409,
+    maxClicks: 442,
   },
   {
     url: "https://chat.whatsapp.com/IvudTWrc6Uz09OBCZR1SGT",
-    maxClicks: 244,
+    maxClicks: 311,
   },
   {
     url: "https://chat.whatsapp.com/LZ7rE2wFN6I4bNlrdkBBAl",
-    maxClicks: 203,
+    maxClicks: 305,
   },
   {
     url: "https://chat.whatsapp.com/CLTEksuH5hx5X5lUd1DbWI",
-    maxClicks: 270,
+    maxClicks: 347,
   },
 ] as const satisfies ReadonlyArray<{ url: string; maxClicks: number }>;
 

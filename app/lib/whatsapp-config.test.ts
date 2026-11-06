@@ -17,13 +17,13 @@ describe("resolveWhatsAppUrl", () => {
     expect(result.url).toBe(WHATSAPP_GROUPS[0].url);
   });
 
-  it("mantém o grupo 1 até o limite de 143", () => {
-    expect(resolveWhatsAppUrl(143).group).toBe(1);
-    expect(resolveWhatsAppUrl(143).url).toBe(WHATSAPP_GROUPS[0].url);
+  it("mantém o grupo 1 até o limite de 138", () => {
+    expect(resolveWhatsAppUrl(138).group).toBe(1);
+    expect(resolveWhatsAppUrl(138).url).toBe(WHATSAPP_GROUPS[0].url);
   });
 
-  it("troca para o grupo 2 no clique 144", () => {
-    const result = resolveWhatsAppUrl(144);
+  it("troca para o grupo 2 no clique 139", () => {
+    const result = resolveWhatsAppUrl(139);
     expect(result.group).toBe(2);
     expect(result.url).toBe(WHATSAPP_GROUPS[1].url);
   });
@@ -31,19 +31,19 @@ describe("resolveWhatsAppUrl", () => {
   it("respeita todos os limites de troca entre grupos", () => {
     const cases = [
       { click: 1, group: 1 },
-      { click: 143, group: 1 },
-      { click: 144, group: 2 },
-      { click: 354, group: 2 },
-      { click: 355, group: 3 },
-      { click: 471, group: 3 },
-      { click: 472, group: 4 },
-      { click: 880, group: 4 },
-      { click: 881, group: 5 },
-      { click: 1124, group: 5 },
-      { click: 1125, group: 6 },
-      { click: 1327, group: 6 },
-      { click: 1328, group: 7 },
-      { click: 1597, group: 7 },
+      { click: 138, group: 1 },
+      { click: 139, group: 2 },
+      { click: 315, group: 2 },
+      { click: 316, group: 3 },
+      { click: 503, group: 3 },
+      { click: 504, group: 4 },
+      { click: 945, group: 4 },
+      { click: 946, group: 5 },
+      { click: 1256, group: 5 },
+      { click: 1257, group: 6 },
+      { click: 1561, group: 6 },
+      { click: 1562, group: 7 },
+      { click: 1908, group: 7 },
       { click: 5000, group: 7 },
     ];
 
@@ -64,13 +64,13 @@ describe("resolveWhatsAppUrl", () => {
 
   it("soma total dos limites bate com a configuração", () => {
     const total = WHATSAPP_GROUPS.reduce((sum, g) => sum + g.maxClicks, 0);
-    expect(total).toBe(143 + 211 + 117 + 409 + 244 + 203 + 270);
-    expect(bounds).toEqual([143, 354, 471, 880, 1124, 1327, 1597]);
+    expect(total).toBe(138 + 177 + 188 + 442 + 311 + 305 + 347);
+    expect(bounds).toEqual([138, 315, 503, 945, 1256, 1561, 1908]);
   });
 
   it("expõe untilClick correto fora do último grupo", () => {
-    expect(resolveWhatsAppUrl(10).untilClick).toBe(143);
-    expect(resolveWhatsAppUrl(200).untilClick).toBe(354);
-    expect(resolveWhatsAppUrl(1400).untilClick).toBeNull();
+    expect(resolveWhatsAppUrl(10).untilClick).toBe(138);
+    expect(resolveWhatsAppUrl(200).untilClick).toBe(315);
+    expect(resolveWhatsAppUrl(1600).untilClick).toBeNull();
   });
 });

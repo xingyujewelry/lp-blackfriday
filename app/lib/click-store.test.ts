@@ -45,25 +45,25 @@ describe("click-store", () => {
   });
 
   it("recupera o estado salvo do disco", async () => {
-    await resetClickStore(142, tempFile);
+    await resetClickStore(137, tempFile);
     const before = await getClickState(tempFile);
-    expect(before.count).toBe(142);
+    expect(before.count).toBe(137);
     expect(before.group).toBe(1);
 
     const next = await incrementClickAndGetWhatsApp(tempFile);
-    expect(next.count).toBe(143);
+    expect(next.count).toBe(138);
     expect(next.group).toBe(1);
 
     const switched = await incrementClickAndGetWhatsApp(tempFile);
-    expect(switched.count).toBe(144);
+    expect(switched.count).toBe(139);
     expect(switched.group).toBe(2);
     expect(switched.url).toBe(WHATSAPP_GROUPS[1].url);
   });
 
-  it("troca para o grupo 7 após 1327 cliques", async () => {
-    await resetClickStore(1327, tempFile);
+  it("troca para o grupo 7 após 1561 cliques", async () => {
+    await resetClickStore(1561, tempFile);
     const next = await incrementClickAndGetWhatsApp(tempFile);
-    expect(next.count).toBe(1328);
+    expect(next.count).toBe(1562);
     expect(next.group).toBe(7);
     expect(next.url).toBe(WHATSAPP_GROUPS[6].url);
   });
