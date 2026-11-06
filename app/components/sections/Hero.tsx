@@ -47,35 +47,31 @@ export function Hero() {
           <div className="flex max-w-xl flex-col items-center text-center lg:max-w-[40rem] lg:items-start lg:text-left">
             <div className="relative mb-8 sm:mb-10 lg:mb-11">
               <img
-                src="/logo2.png"
-                alt="Black Week Xingyu"
-                className="relative h-28 w-auto sm:h-32 lg:h-28 xl:h-32"
+                src="/Logo.png"
+                alt="Melhor Que Black Friday"
+                className="relative h-16 w-auto sm:h-20 lg:h-16 xl:h-20"
               />
             </div>
 
             <h1 className="font-helvetica text-[1.85rem] font-medium leading-[1.22] tracking-tight text-white [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] sm:text-[2.45rem] lg:text-[2.35rem] xl:text-[2.55rem]">
               <span className="block lg:hidden">
-                A maior Black Week de semijoias no atacado. Compre direto da
-                fábrica na China!
+                A maior e melhor Black Friday de semijoias do Brasil!
               </span>
               <span className="hidden w-fit lg:block">
                 <span className="block whitespace-nowrap">
-                  A maior Black Week de
+                  A maior e melhor Black Friday
                 </span>
                 <span className="block whitespace-nowrap">
-                  semijoias no atacado. Compre
-                </span>
-                <span className="block whitespace-nowrap">
-                  direto da fábrica na China!
+                  de semijoias do Brasil!
                 </span>
               </span>
             </h1>
 
             <p className="mt-7 max-w-md text-[0.95rem] font-normal leading-[1.7] text-white/85 [text-shadow:0_1px_12px_rgba(0,0,0,0.28)] sm:text-base lg:mt-8 lg:max-w-[30rem] lg:text-[1.05rem] lg:leading-[1.7]">
-              Participe da Black Week Xingyu e aproveite a maior oportunidade
-              do ano para importar suas semijoias direto da China, renovar seu
-              estoque pagando menos e começar o próximo ciclo de vendas com mais
-              variedade e margem.
+              Compre semijoias diretamente da nossa fábrica na China com preços
+              de atacado + 51% de desconto na Coleção Eclipse. Renove seu
+              estoque com mais variedade e melhores oportunidades para
+              revender!
             </p>
 
             <div className="mt-8 flex w-full max-w-md flex-col items-center gap-5 lg:mt-9 lg:items-start">
@@ -91,9 +87,9 @@ export function Hero() {
                 <span className="h-px w-9 bg-gradient-to-l from-transparent to-[#FFFFFF]/90 sm:w-11" />
               </div>
               <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-[#FFFFFF] [text-shadow:0_1px_10px_rgba(0,0,0,0.3)] lg:text-xs lg:tracking-[0.22em]">
-                Atenção: Coleção Verão com 50% de
+                Coleção Eclipse com 51% de desconto!
                 <br />
-                desconto durante o evento
+                Use o cupom BLACK51
               </p>
             </div>
 
@@ -101,12 +97,13 @@ export function Hero() {
               <EventButton
                 className="px-7 py-3.5 text-[11px] sm:px-9 sm:text-xs lg:px-10 lg:py-4"
               >
-                Entrar no grupo do WhatsApp
+                Entrar agora no grupo VIP
               </EventButton>
             </div>
             <p className="mt-5 max-w-md text-[13px] font-normal leading-relaxed text-white [text-shadow:0_1px_10px_rgba(0,0,0,0.25)] lg:mt-5 lg:text-sm">
-              Os avisos das lives, o acesso à Coleção Verão e todas as
-              condições da Black Week Xingyu serão enviados no grupo oficial.
+              Entre no grupo VIP para receber os avisos das lives, saber quando
+              a Coleção Eclipse for liberada e acompanhar as condições especiais
+              do evento.
             </p>
           </div>
       </div>

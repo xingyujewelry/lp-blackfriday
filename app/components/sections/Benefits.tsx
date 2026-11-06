@@ -32,18 +32,18 @@ const guarantees: {
   },
   {
     icon: Gem,
-    title: "Coleção Verão",
-    text: "Uma seleção especial de semijoias criada para quem quer reforçar o estoque e aproveitar a condição especial da Black Week Xingyu.",
+    title: "Coleção Eclipse",
+    text: "Uma seleção especial de semijoias criada para quem quer reforçar o estoque e aproveitar a condição especial do Melhor Que Black Friday.",
   },
   {
     icon: BadgePercent,
-    title: "50% de desconto",
-    text: "Durante a Black Week Xingyu, a Coleção Verão será liberada com 50% de desconto por tempo limitado durante a campanha.",
+    title: "51% de desconto",
+    text: "Durante o Melhor Que Black Friday, a Coleção Eclipse será liberada com 51% de desconto por tempo limitado durante a campanha.",
   },
   {
     icon: Bell,
-    title: "Grupo oficial do evento",
-    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar a Black Week Xingyu.",
+    title: "Grupo VIP do evento",
+    text: "Receba datas, horários, lembretes, acesso à coleção e todas as informações para aproveitar o Melhor Que Black Friday.",
   },
 ];
 
@@ -94,14 +94,14 @@ export function Benefits() {
         <Reveal>
           <SectionHeading
             tone="light"
-            tag="Black Week Xingyu"
+            tag="Melhor Que Black Friday"
             title={
               <>
-                A maior Black Week de
-                <br className="hidden sm:block" /> semijoias no atacado.
+                A maior e melhor Black Friday
+                <br className="hidden sm:block" /> de semijoias do Brasil!
               </>
             }
-            subtitle="Aproveite a maior oportunidade do ano para importar suas semijoias direto da China, renovar seu estoque pagando menos e começar o próximo ciclo de vendas com mais variedade e margem."
+            subtitle="Compre semijoias diretamente da nossa fábrica na China com preços de atacado + 51% de desconto na Coleção Eclipse. Renove seu estoque com mais variedade e melhores oportunidades para revender!"
           />
         </Reveal>
 

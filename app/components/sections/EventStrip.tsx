@@ -12,7 +12,7 @@ export function EventStrip() {
         <span className="hidden h-px w-10 shrink-0 bg-white/30 sm:block sm:h-5 sm:w-px" />
         <TrustItem
           icon={CalendarDays}
-          label="Lives: 05/11, 08/11, 10/11 e 12/11"
+          label="Lives: 19/11, 22/11, 24/11 e 26/11"
         />
         <span className="hidden h-px w-10 shrink-0 bg-white/30 lg:block lg:h-5 lg:w-px" />
         <TrustItem icon={Clock} label="21:30 (Brasília)" />
@@ -21,7 +21,7 @@ export function EventStrip() {
         <span className="hidden h-px w-10 shrink-0 bg-white/30 sm:block sm:h-5 sm:w-px" />
         <TrustItem
           icon={Users}
-          label="Avisos e acesso pelo grupo oficial no WhatsApp"
+          label="Avisos no grupo VIP do WhatsApp"
         />
       </div>
     </section>

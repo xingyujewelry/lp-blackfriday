@@ -14,7 +14,7 @@ import {
 } from "../lib/whatsapp-config";
 
 export function EventButton({
-  children = "Entrar no grupo do WhatsApp",
+  children = "Entrar agora no grupo VIP",
   className = "",
   style,
 }: {

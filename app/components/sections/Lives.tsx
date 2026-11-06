@@ -15,27 +15,27 @@ const lives: {
   icon: LucideIcon;
 }[] = [
   {
-    date: "05/11",
+    date: "19/11",
     label: "Abertura oficial",
-    text: "Abertura oficial da Black Week Xingyu e liberação da Coleção Verão com a condição especial do evento para você começar a reforçar seu estoque.",
+    text: "Abertura oficial do Melhor Que Black Friday e liberação da Coleção Eclipse com preços de atacado + 51% de desconto para você renovar seu estoque.",
     icon: Radio,
   },
   {
-    date: "08/11",
+    date: "22/11",
     label: "Vendas e oportunidades",
-    text: "Um novo encontro para conhecer peças da Coleção Verão, analisar oportunidades e continuar montando um estoque mais preparado para aproveitar a Black Week Xingyu.",
+    text: "Mais um encontro para conhecer semijoias da Coleção Eclipse, conferir oportunidades e ampliar seu estoque aproveitando as condições especiais do evento.",
     icon: Factory,
   },
   {
-    date: "10/11",
+    date: "24/11",
     label: "Mais peças para reforçar seu estoque",
-    text: "Mais uma live de vendas para acompanhar peças, combinações e possibilidades para ampliar a variedade do seu estoque e aproveitar as condições da Coleção Verão antes do encerramento.",
+    text: "Descubra novos modelos, combinações e possibilidades para diversificar seu estoque e aproveitar as condições da Coleção Eclipse.",
     icon: Gem,
   },
   {
-    date: "12/11",
+    date: "26/11",
     label: "Live de fechamento",
-    text: "O último encontro da Black Week Xingyu. A oportunidade final para conhecer as peças, concluir seu pedido e aproveitar os 50% de desconto da Coleção Verão com o cupom VERÃO50 antes do encerramento da campanha.",
+    text: "A última live do Melhor Que Black Friday! Confira as peças da Coleção Eclipse, tire suas dúvidas e aproveite os 51% de desconto com o cupom BLACK51 para concluir seu pedido antes do encerramento da campanha.",
     icon: Flag,
   },
 ];
@@ -46,13 +46,13 @@ export function Lives() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-[center_right] bg-no-repeat opacity-[0.14] grayscale lg:block"
-        style={{ backgroundImage: "url('/heroDesktop.png')" }}
+        style={{ backgroundImage: "url('/CAP%20-%20DESK.png')" }}
         aria-hidden
       />
       {/* background — mobile */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.12] grayscale lg:hidden"
-        style={{ backgroundImage: "url('/heroMobile.png')" }}
+        style={{ backgroundImage: "url('/CAP%20-%20MOBI.png')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/80 via-white/72 to-white/85" />
@@ -65,11 +65,12 @@ export function Lives() {
             tag="Agenda do evento"
             title={
               <>
-                Uma sequência de lives para aproveitar
-                <br className="hidden sm:block" /> a Black Week Xingyu
+                Quatro lives para aproveitar
+                <br className="hidden sm:block" /> o Melhor Que Black Friday da
+                Xingyu
               </>
             }
-            subtitle="A Black Week Xingyu acontece em uma sequência de lives pelo Instagram, sempre às 21:30, no horário de Brasília."
+            subtitle="O Melhor Que Black Friday da Xingyu acontece em quatro lives no Instagram, sempre às 21:30, no horário de Brasília."
           />
         </Reveal>
 
@@ -106,14 +107,15 @@ export function Lives() {
         <Reveal delay={160}>
           <div className="mx-auto mt-16 flex max-w-lg flex-col items-center gap-6 pt-4 text-center lg:gap-6">
             <p className="text-base font-normal leading-relaxed text-[#0D0D0D]/75 lg:text-[1.05rem]">
-              Entre no grupo oficial para receber todos os avisos, acompanhar as
-              lives e não perder nenhuma etapa da Black Week Xingyu.
+              Entre no grupo VIP para receber os avisos das quatro lives,
+              acompanhar a liberação das peças e não perder nenhuma etapa do
+              Melhor Que Black Friday.
             </p>
-            <EventButton>Entrar no grupo do evento</EventButton>
+            <EventButton>Entrar no grupo VIP agora</EventButton>
             <p className="text-sm font-normal leading-relaxed text-[#0D0D0D] lg:text-[15px]">
-              A condição de 50% de desconto é por tempo limitado e estará
-              vinculada à campanha da Coleção Verão, mediante o uso do cupom
-              VERÃO50.
+              O desconto de 51% é válido para a Coleção Eclipse durante a
+              campanha, mediante o uso do cupom BLACK51, conforme as condições
+              do evento.
             </p>
           </div>
         </Reveal>

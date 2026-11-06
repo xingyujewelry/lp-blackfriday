@@ -75,8 +75,8 @@ export default function ObrigadoPage() {
 
       <div className="relative z-10 flex max-w-md flex-col items-center gap-6">
         <img
-          src="/logo2.png"
-          alt="Black Week Xingyu"
+          src="/Logo.png"
+          alt="Melhor Que Black Friday"
           className="h-20 w-auto sm:h-24"
         />
 
@@ -89,7 +89,7 @@ export default function ObrigadoPage() {
         </h1>
 
         <p className="text-base font-normal leading-relaxed text-muted sm:text-lg">
-          Estamos abrindo o grupo oficial do WhatsApp. Você será redirecionado
+          Estamos abrindo o grupo VIP do WhatsApp. Você será redirecionado
           em instantes.
         </p>
 

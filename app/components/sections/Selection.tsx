@@ -56,8 +56,8 @@ export function Selection() {
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
           <SectionHeading
-            tag="Coleção Verão"
-            title="Conheça algumas das semijoias da Coleção Verão"
+            tag="Coleção Eclipse"
+            title="Conheça algumas das semijoias da Coleção Eclipse"
           />
         </Reveal>
       </div>

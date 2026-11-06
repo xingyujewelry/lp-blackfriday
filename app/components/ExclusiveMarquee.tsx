@@ -20,7 +20,7 @@ export function ExclusiveMarquee() {
                 key={`${setIndex}-${i}`}
                 className="flex shrink-0 items-center gap-6 whitespace-nowrap px-6 text-[9px] font-medium uppercase tracking-[0.18em] text-[#0D0D0D] sm:text-[10px] sm:tracking-[0.2em] lg:gap-8 lg:px-8 lg:text-[11px] lg:tracking-[0.22em]"
               >
-                Exclusivo para quem compra semijoias para revender
+                Exclusivo para revendedoras e lojistas de semijoias
                 <BadgePercent
                   className="h-3.5 w-3.5 shrink-0 text-[#0D0D0D] sm:h-4 sm:w-4"
                   strokeWidth={1.6}
