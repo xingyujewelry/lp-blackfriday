@@ -46,13 +46,13 @@ export function Lives() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-[center_right] bg-no-repeat opacity-[0.14] grayscale lg:block"
-        style={{ backgroundImage: "url('/CAP%20-%20DESK.png')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
         aria-hidden
       />
       {/* background — mobile */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.12] grayscale lg:hidden"
-        style={{ backgroundImage: "url('/CAP%20-%20MOBI.png')" }}
+        style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/80 via-white/72 to-white/85" />

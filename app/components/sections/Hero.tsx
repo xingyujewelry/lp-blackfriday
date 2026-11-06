@@ -11,7 +11,7 @@ export function Hero() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 top-0 hidden bg-cover bg-top bg-no-repeat lg:block"
-        style={{ backgroundImage: "url('/CAP%20-%20DESK.png')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
       />
       {/* wash lateral — legibilidade no desktop */}
       <div
@@ -26,7 +26,7 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 lg:hidden">
         <div
           className="absolute inset-0 bg-cover bg-top bg-no-repeat"
-          style={{ backgroundImage: "url('/CAP%20-%20MOBI.png')" }}
+          style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
         />
         <div className="absolute inset-0 bg-[#0D0D0D]/40" />
         <div className="absolute inset-x-0 top-0 h-[48%] bg-gradient-to-b from-[#0D0D0D]/80 via-[#0D0D0D]/45 to-transparent" />

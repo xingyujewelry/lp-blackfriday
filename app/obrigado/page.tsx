@@ -61,12 +61,12 @@ export default function ObrigadoPage() {
     <main className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-background px-6 text-center">
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-top bg-no-repeat lg:block"
-        style={{ backgroundImage: "url('/CAP%20-%20DESK.png')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
         aria-hidden
       />
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-top bg-no-repeat lg:hidden"
-        style={{ backgroundImage: "url('/CAP%20-%20MOBI.png')" }}
+        style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-[#0D0D0D]/55 lg:bg-[#0D0D0D]/45" />
