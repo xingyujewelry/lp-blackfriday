@@ -1,6 +1,5 @@
 import { ExclusiveMarquee } from "../ExclusiveMarquee";
 import { EventButton } from "../ui";
-import { BadgePercent } from "lucide-react";
 
 export function Hero() {
   return (
@@ -11,7 +10,7 @@ export function Hero() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 top-0 hidden bg-cover bg-top bg-no-repeat lg:block"
-        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.png')" }}
       />
       {/* wash lateral — legibilidade no desktop */}
       <div
@@ -26,7 +25,7 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 lg:hidden">
         <div
           className="absolute inset-0 bg-cover bg-top bg-no-repeat"
-          style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
+          style={{ backgroundImage: "url('/CAP-MOBI2.png')" }}
         />
         <div className="absolute inset-0 bg-[#0D0D0D]/40" />
         <div className="absolute inset-x-0 top-0 h-[48%] bg-gradient-to-b from-[#0D0D0D]/80 via-[#0D0D0D]/45 to-transparent" />
@@ -47,51 +46,22 @@ export function Hero() {
           <div className="flex max-w-xl flex-col items-center text-center lg:max-w-[40rem] lg:items-start lg:text-left">
             <div className="relative mb-8 sm:mb-10 lg:mb-11">
               <img
-                src="/Logo.png"
-                alt="Melhor Que Black Friday"
+                src="/LogoOP.png"
+                alt="Operação 2027"
                 className="relative h-16 w-auto sm:h-20 lg:h-16 xl:h-20"
               />
             </div>
 
-            <h1 className="font-helvetica text-[1.85rem] font-medium leading-[1.22] tracking-tight text-white [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] sm:text-[2.45rem] lg:text-[2.35rem] xl:text-[2.55rem]">
-              <span className="block lg:hidden">
-                A maior e melhor Black Friday de semijoias do Brasil!
-              </span>
-              <span className="hidden w-fit lg:block">
-                <span className="block whitespace-nowrap">
-                  A maior e melhor Black Friday
-                </span>
-                <span className="block whitespace-nowrap">
-                  de semijoias do Brasil!
-                </span>
-              </span>
+            <h1 className="font-helvetica text-[1.6rem] text-balance font-medium uppercase leading-[1.18] tracking-tight text-light [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] sm:text-[2.2rem] lg:text-[2.05rem] xl:text-[2.3rem]">
+              Prepare agora seu estoque de semijoias para vender mais em 2027!
             </h1>
 
-            <p className="mt-7 max-w-md text-[0.95rem] font-normal leading-[1.7] text-white/85 [text-shadow:0_1px_12px_rgba(0,0,0,0.28)] sm:text-base lg:mt-8 lg:max-w-[30rem] lg:text-[1.05rem] lg:leading-[1.7]">
-              Compre semijoias diretamente da nossa fábrica na China com preços
-              de atacado + 51% de desconto na Coleção Eclipse. Renove seu
-              estoque com mais variedade e melhores oportunidades para
-              revender!
+            <p className="mt-7 max-w-md text-[0.95rem] font-normal leading-[1.7] text-light/85 [text-shadow:0_1px_12px_rgba(0,0,0,0.28)] sm:text-base lg:mt-8 lg:max-w-[30rem] lg:text-[1.05rem] lg:leading-[1.7]">
+              Na Operação 2027, revendedoras e lojistas vão conhecer a nova
+              Coleção Áurea: semijoias direto da fábrica Xingyu na China, com
+              preços de atacado e 45% de desconto para renovar seu estoque antes
+              de janeiro.
             </p>
-
-            <div className="mt-8 flex w-full max-w-md flex-col items-center gap-5 lg:mt-9 lg:items-start">
-              <div
-                className="flex items-center gap-3.5"
-                aria-hidden
-              >
-                <span className="h-px w-9 bg-gradient-to-r from-transparent to-[#FFFFFF]/90 sm:w-11" />
-                <BadgePercent
-                  className="h-[1.125rem] w-[1.125rem] shrink-0 text-[#FFFFFF]"
-                  strokeWidth={1.5}
-                />
-                <span className="h-px w-9 bg-gradient-to-l from-transparent to-[#FFFFFF]/90 sm:w-11" />
-              </div>
-              <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-[#FFFFFF] [text-shadow:0_1px_10px_rgba(0,0,0,0.3)] lg:text-xs lg:tracking-[0.22em]">
-                Coleção Eclipse com 51% de desconto!
-                <br />
-                Use o cupom BLACK51
-              </p>
-            </div>
 
             <div className="mt-8 lg:mt-9">
               <EventButton
@@ -100,10 +70,10 @@ export function Hero() {
                 Entrar agora no grupo VIP
               </EventButton>
             </div>
-            <p className="mt-5 max-w-md text-[13px] font-normal leading-relaxed text-white [text-shadow:0_1px_10px_rgba(0,0,0,0.25)] lg:mt-5 lg:text-sm">
-              Entre no grupo VIP para receber os avisos das lives, saber quando
-              a Coleção Eclipse for liberada e acompanhar as condições especiais
-              do evento.
+            <p className="mt-5 max-w-md text-[13px] font-normal leading-relaxed text-light [text-shadow:0_1px_10px_rgba(0,0,0,0.25)] lg:mt-5 lg:text-sm">
+              Entre no grupo VIP para receber os avisos das lives, acompanhar a
+              revelação da Coleção Áurea e ficar por dentro das condições
+              especiais da Operação 2027.
             </p>
           </div>
       </div>

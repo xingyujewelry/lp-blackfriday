@@ -15,27 +15,27 @@ const lives: {
   icon: LucideIcon;
 }[] = [
   {
-    date: "19/11",
+    date: "03/12",
     label: "Abertura oficial",
-    text: "Abertura oficial do Melhor Que Black Friday e liberação da Coleção Eclipse com preços de atacado + 51% de desconto para você renovar seu estoque.",
+    text: "Abertura oficial da Operação 2027 e apresentação da nova Coleção Áurea, com semijoias direto da nossa fábrica na China e 45% de desconto.",
     icon: Radio,
   },
   {
-    date: "22/11",
-    label: "Vendas e oportunidades",
-    text: "Mais um encontro para conhecer semijoias da Coleção Eclipse, conferir oportunidades e ampliar seu estoque aproveitando as condições especiais do evento.",
+    date: "06/12",
+    label: "Novas oportunidades para seu estoque",
+    text: "Conheça melhor as semijoias da Coleção Áurea, descubra combinações e oportunidades para ampliar a variedade do seu estoque com as condições especiais do evento.",
     icon: Factory,
   },
   {
-    date: "24/11",
-    label: "Mais peças para reforçar seu estoque",
-    text: "Descubra novos modelos, combinações e possibilidades para diversificar seu estoque e aproveitar as condições da Coleção Eclipse.",
+    date: "08/12",
+    label: "Prepare seu estoque para 2027",
+    text: "Explore modelos e possibilidades para começar 2027 com um estoque mais variado, aproveitando as condições especiais da Coleção Áurea.",
     icon: Gem,
   },
   {
-    date: "26/11",
+    date: "10/12",
     label: "Live de fechamento",
-    text: "A última live do Melhor Que Black Friday! Confira as peças da Coleção Eclipse, tire suas dúvidas e aproveite os 51% de desconto com o cupom BLACK51 para concluir seu pedido antes do encerramento da campanha.",
+    text: "A última live da Operação 2027! Reveja as peças da Coleção Áurea, tire suas dúvidas e aproveite as condições especiais, com 45% de desconto e o cupom 2027, para organizar seu estoque antes do encerramento da campanha.",
     icon: Flag,
   },
 ];
@@ -46,13 +46,13 @@ export function Lives() {
       {/* background — desktop */}
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-[center_right] bg-no-repeat opacity-[0.14] grayscale lg:block"
-        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.png')" }}
         aria-hidden
       />
       {/* background — mobile */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.12] grayscale lg:hidden"
-        style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
+        style={{ backgroundImage: "url('/CAP-MOBI2.png')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/80 via-white/72 to-white/85" />
@@ -65,12 +65,12 @@ export function Lives() {
             tag="Agenda do evento"
             title={
               <>
-                Quatro lives para aproveitar
-                <br className="hidden sm:block" /> o Melhor Que Black Friday da
+                Quatro lives para preparar
+                <br className="hidden sm:block" /> seu estoque para 2027 com a
                 Xingyu
               </>
             }
-            subtitle="O Melhor Que Black Friday da Xingyu acontece em quatro lives no Instagram, sempre às 21:30, no horário de Brasília."
+            subtitle="A Operação 2027 da Xingyu acontece em quatro lives no Instagram, sempre às 21h30, no horário de Brasília."
           />
         </Reveal>
 
@@ -108,15 +108,10 @@ export function Lives() {
           <div className="mx-auto mt-16 flex max-w-lg flex-col items-center gap-6 pt-4 text-center lg:gap-6">
             <p className="text-base font-normal leading-relaxed text-[#0D0D0D]/75 lg:text-[1.05rem]">
               Entre no grupo VIP para receber os avisos das quatro lives,
-              acompanhar a liberação das peças e não perder nenhuma etapa do
-              Melhor Que Black Friday.
+              acompanhar a Coleção Áurea e não perder nenhuma etapa da Operação
+              2027.
             </p>
             <EventButton>Entrar no grupo VIP agora</EventButton>
-            <p className="text-sm font-normal leading-relaxed text-[#0D0D0D] lg:text-[15px]">
-              O desconto de 51% é válido para a Coleção Eclipse durante a
-              campanha, mediante o uso do cupom BLACK51, conforme as condições
-              do evento.
-            </p>
           </div>
         </Reveal>
       </div>

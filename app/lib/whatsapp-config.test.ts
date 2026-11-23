@@ -38,13 +38,7 @@ describe("resolveWhatsAppUrl", () => {
       { click: 503, group: 3 },
       { click: 504, group: 4 },
       { click: 945, group: 4 },
-      { click: 946, group: 5 },
-      { click: 1256, group: 5 },
-      { click: 1257, group: 6 },
-      { click: 1561, group: 6 },
-      { click: 1562, group: 7 },
-      { click: 1908, group: 7 },
-      { click: 5000, group: 7 },
+      { click: 5000, group: 4 },
     ];
 
     for (const item of cases) {
@@ -64,13 +58,13 @@ describe("resolveWhatsAppUrl", () => {
 
   it("soma total dos limites bate com a configuração", () => {
     const total = WHATSAPP_GROUPS.reduce((sum, g) => sum + g.maxClicks, 0);
-    expect(total).toBe(138 + 177 + 188 + 442 + 311 + 305 + 347);
-    expect(bounds).toEqual([138, 315, 503, 945, 1256, 1561, 1908]);
+    expect(total).toBe(138 + 177 + 188 + 442);
+    expect(bounds).toEqual([138, 315, 503, 945]);
   });
 
   it("expõe untilClick correto fora do último grupo", () => {
     expect(resolveWhatsAppUrl(10).untilClick).toBe(138);
     expect(resolveWhatsAppUrl(200).untilClick).toBe(315);
-    expect(resolveWhatsAppUrl(1600).untilClick).toBeNull();
+    expect(resolveWhatsAppUrl(600).untilClick).toBeNull();
   });
 });

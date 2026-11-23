@@ -21,9 +21,9 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Melhor Que Black Friday — Semijoias direto da fábrica na China",
+  title: "Operação 2027 — Coleção Áurea direto da fábrica Xingyu na China",
   description:
-    "A maior e melhor Black Friday de semijoias do Brasil. Compre direto da fábrica na China com 51% de desconto na Coleção Eclipse. Cupom BLACK51.",
+    "Prepare seu estoque de semijoias para vender mais em 2027. Conheça a Coleção Áurea direto da fábrica Xingyu na China, com preços de atacado e 45% de desconto.",
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: "/favicon.svg",

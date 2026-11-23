@@ -113,7 +113,7 @@ export function TrustItem({
     <span className="flex max-w-full items-center gap-3 text-balance sm:shrink-0 sm:whitespace-nowrap">
       <Icon
         className={
-          small ? "h-4 w-4 shrink-0 text-white" : "h-6 w-6 shrink-0 text-white"
+          small ? "h-4 w-4 shrink-0 text-accent" : "h-6 w-6 shrink-0 text-accent"
         }
         strokeWidth={1.4}
         aria-hidden

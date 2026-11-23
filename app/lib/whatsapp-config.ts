@@ -20,18 +20,6 @@ export const WHATSAPP_GROUPS = [
     url: "https://chat.whatsapp.com/CWbL4fQRhdzFmIJGT1xGxc",
     maxClicks: 442,
   },
-  {
-    url: "https://chat.whatsapp.com/IvudTWrc6Uz09OBCZR1SGT",
-    maxClicks: 311,
-  },
-  {
-    url: "https://chat.whatsapp.com/LZ7rE2wFN6I4bNlrdkBBAl",
-    maxClicks: 305,
-  },
-  {
-    url: "https://chat.whatsapp.com/CLTEksuH5hx5X5lUd1DbWI",
-    maxClicks: 347,
-  },
 ] as const satisfies ReadonlyArray<{ url: string; maxClicks: number }>;
 
 export const WHATSAPP_URL_FALLBACK: string = WHATSAPP_GROUPS[0].url;

@@ -61,12 +61,12 @@ export default function ObrigadoPage() {
     <main className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-background px-6 text-center">
       <div
         className="pointer-events-none absolute inset-0 hidden bg-cover bg-top bg-no-repeat lg:block"
-        style={{ backgroundImage: "url('/CAP-DESK.webp')" }}
+        style={{ backgroundImage: "url('/CAP-DESK.png')" }}
         aria-hidden
       />
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-top bg-no-repeat lg:hidden"
-        style={{ backgroundImage: "url('/CAP-MOBI.webp')" }}
+        style={{ backgroundImage: "url('/CAP-MOBI2.png')" }}
         aria-hidden
       />
       <div className="pointer-events-none absolute inset-0 bg-[#0D0D0D]/55 lg:bg-[#0D0D0D]/45" />
@@ -75,8 +75,8 @@ export default function ObrigadoPage() {
 
       <div className="relative z-10 flex max-w-md flex-col items-center gap-6">
         <img
-          src="/Logo.png"
-          alt="Melhor Que Black Friday"
+          src="/LogoOP.png"
+          alt="Operação 2027"
           className="h-20 w-auto sm:h-24"
         />
 
@@ -95,7 +95,7 @@ export default function ObrigadoPage() {
 
         <div className="mt-2 flex flex-col items-center gap-4">
           <Loader2
-            className="h-8 w-8 animate-spin text-white"
+            className="h-8 w-8 animate-spin text-accent"
             strokeWidth={1.4}
             aria-hidden
           />

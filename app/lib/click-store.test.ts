@@ -60,12 +60,12 @@ describe("click-store", () => {
     expect(switched.url).toBe(WHATSAPP_GROUPS[1].url);
   });
 
-  it("troca para o grupo 7 após 1561 cliques", async () => {
-    await resetClickStore(1561, tempFile);
+  it("permanece no grupo 4 após 945 cliques", async () => {
+    await resetClickStore(945, tempFile);
     const next = await incrementClickAndGetWhatsApp(tempFile);
-    expect(next.count).toBe(1562);
-    expect(next.group).toBe(7);
-    expect(next.url).toBe(WHATSAPP_GROUPS[6].url);
+    expect(next.count).toBe(946);
+    expect(next.group).toBe(4);
+    expect(next.url).toBe(WHATSAPP_GROUPS[3].url);
   });
 
   it("trata JSON inválido como contador zerado", async () => {
