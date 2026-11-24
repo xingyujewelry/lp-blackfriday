@@ -153,7 +153,7 @@ export function SignupForm({
             required
             value={numero}
             onChange={(e) => setNumero(formatPhone(e.target.value))}
-            placeholder="Qual seu WhatsApp?"
+            placeholder="Qual seu whatsapp com (DDD)?"
             autoComplete="tel"
             inputMode="numeric"
             maxLength={15}
