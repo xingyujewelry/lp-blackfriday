@@ -4,6 +4,7 @@ import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { MetaPixel } from "./components/MetaPixel";
+import { ModalProvider } from "./components/ModalContext";
 import { META_PIXEL_ID } from "./lib/meta-pixel";
 
 const display = Cormorant_Garamond({
@@ -66,7 +67,7 @@ export default function RootLayout({
           />
         </noscript>
         <MetaPixel />
-        {children}
+        <ModalProvider>{children}</ModalProvider>
       </body>
     </html>
   );
